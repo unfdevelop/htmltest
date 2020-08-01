@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+
+  </head>
+  <body>
+    <div class="form__container">
+      <h1 class="ta-center t-shadow">Hello</h1>
+      <form class="form bx-shadow">
+        <p class="ta-center"><span class="desc">For business enquiries please use the form below</span></p>
+        <p class="ta-center"><span class="ta-center required secondary-color">Required</span></p>
+        <div class="container">
+          <div class="row">
+          <input type="text" name="name" required>
+          <label for="name" class="required-right">Name</label>
+          </div>
+          <div class="row">
+          <input type="text" name="company" required>
+          <label for="company" class="required-right">Company</label>
+          </div>
+          <div class="row">
+            <input type="text" name="email" required>
+            <label for="email" class="required-right">E-mail</label>
+          </div>
+          <div class="row">
+            <input type="text" name="phone" required>
+            <label for="phone">Phone</label>
+          </div>
+          <div class="row">
+            <input type="text" name="subject" required>
+            <label for="subject">Subject</label>
+          </div>
+          <div class="row">
+            <textarea name="message" required></textarea>
+            <label for="message" class="required-right">Message</label>
+          </div>
+
+          <div class="row">
+            <input type="checkbox" class="custom-checkbox" id="accept" name="accept" value="yes">
+            <label for="accept" class="pseudo-checkbox">I accept <a href="#">Terms and Privace Policy</a></label>
+          </div>
+
+          <div class="clearfix ta-center">
+            <button type="submit" class="sendbtn">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
